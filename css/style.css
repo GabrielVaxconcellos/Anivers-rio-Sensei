@@ -121,6 +121,88 @@ body{
     margin: 0px;
 }
 
+
+.bg-menu-amigos{
+    position: relative;
+    top: 90px;
+    z-index: 1;
+}
+
+/* AMIGOS */
+.container-lista{
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px 0;
+}
+.bg-lista{
+    background: rgba(0, 0, 0, 0.904);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.container-lista ul{
+    display: flex;
+    width: 960px;
+    justify-content: space-between;
+}
+.container-lista ul li{
+    justify-content: space-around;
+    color: #fec63e;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+    border: 3px solid #fec63e;
+    width: 50px;
+    height: 50px;
+    border-radius: 51%;
+    text-align: center;
+    padding-top: 10px;
+}
+.container-lista ul li:hover{
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+.espaco{
+    padding-top: 100px;
+}
+
+.img-people{
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.img-people img{
+    width: 300px;
+    height: 300px;
+    border: 3px solid #fec63e;
+    border-radius: 50%;    
+
+}
+#betina h3, #diego h3, #fernando h3, #gabriel h3, #gutemberg h3, #hellen h3, #kayo h3, #karina h3{
+    padding-top: 10px;
+    font-size: 1.5em;
+    text-align: center;
+}
+#betina p, #diego p, #fernando p, #gabriel p, #gutemberg p, #hellen p, #kayo p, #karina p{
+    max-width: 500px;
+    font-size: 1em;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.5em;
+}
+
+.sucesso{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+
+
+
+
 /* Responsivo */
 @media(max-width: 769px){
     body{
@@ -189,6 +271,64 @@ body{
     text-align: center;
     font-size: 1em;
     margin-bottom: 0px;
+}
+
+
+/* Amigos */
+.container-lista{
+    width: 300px;
+    padding-top: 40px;
+}
+
+.container-lista ul li{
+    font-size: 1.2em;
+    border: 2px solid #fec63e;
+    width: 32px;
+    height: 32px;
+    padding-top: 3px;
+}
+.container-lista ul li:hover{
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+.espaco{
+    padding-top: 80px;
+}
+
+.img-people{
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.img-people img{
+    width: 300px;
+    height: 300px;
+    border: 3px solid #fec63e;
+    border-radius: 50%;    
+
+}
+#betina h3, #diego h3, #fernando h3, #gabriel h3, #gutemberg h3, #hellen h3, #kayo h3, #karina h3{
+    padding-top: 10px;
+    font-size: 1.5em;
+    text-align: center;
+}
+#betina p, #diego p, #fernando p, #gabriel p, #gutemberg p, #hellen p, #kayo p, #karina p{
+    max-width: 500px;
+    font-size: 1em;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.5em;
+}
+
+.sucesso{
+    font-family: 'Times New Roman', Times, serif;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 50px 0px 10px 0px;
+    font-weight: 800;
 }
 
 /* Calopsita */
